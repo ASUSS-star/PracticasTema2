@@ -1,0 +1,132 @@
+# ==========================================
+# Node.js / Express
+# ==========================================
+
+# Dependencias
+node_modules/
+jspm_packages/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos de entorno
+.env
+.env.*
+!.env.example
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Builds
+dist/
+build/
+out/
+
+# Cache
+.npm/
+.yarn/
+.pnpm-store/
+.cache/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+
+# ==========================================
+# Laravel / PHP
+# ==========================================
+
+# Dependencias de Composer
+/vendor/
+
+# Variables de entorno
+.env
+.env.*.local
+
+# Laravel
+/storage/*.key
+/storage/app/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Ignorar contenido de storage excepto .gitignore
+!/storage/app/.gitignore
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/testing/.gitignore
+!/storage/framework/views/.gitignore
+!/storage/logs/.gitignore
+
+# Laravel Passport
+/storage/oauth-private.key
+/storage/oauth-public.key
+
+
+# ==========================================
+# IDE / Editores
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Visual Studio
+.vs/
+
+
+# ==========================================
+# Sistema operativo
+# ==========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+
+# ==========================================
+# PHP
+# ==========================================
+
+*.cache
+*.phar
+
+# PHPUnit
+.phpunit.result.cache
+
+
+# ==========================================
+# Docker
+# ==========================================
+
+docker-compose.override.yml
+.docker/
+
+
+# ==========================================
+# Otros
+# ==========================================
+
+*.pid
+*.seed
+*.pid.lock
